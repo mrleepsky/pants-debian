@@ -1,0 +1,18 @@
+[GLOBAL]
+backend_packages = [
+    "pants.backend.python",
+    "pants.backend.python.lint.black",
+    "pants.backend.python.lint.flake8",
+    "pants.backend.python.lint.isort"
+]
+pants_version = "2.2.0"
+
+[flake8]
+args = [
+    "--max-line-length 88"
+]
+
+[isort]
+args = [
+    "--profile black"
+]

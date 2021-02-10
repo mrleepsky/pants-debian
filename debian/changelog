@@ -1,0 +1,5 @@
+pants-debian (0.0.1) UNRELEASED; urgency=low
+
+  * pants-debian: Initial Debian packaging
+
+ -- Marcin Lipa <marcin.lipa@protonmail.com>  Wed, 10 Feb 2021 01:00:00 +0000
